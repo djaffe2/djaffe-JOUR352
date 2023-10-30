@@ -1,12 +1,100 @@
-img {
-    width:50%;
-    
-}
-.dark {
-    background-color:darksalmon;
+@media {
+
+.nav a {
+    font-family:montserrat, sans-serif;
+    color:#414B3B;
+    text-align:center;
 }
 
-#topper {
+.nav a:hover {
+    text-decoration: underline;
+    color:#414B3B;
+    }
     
-    color: aliceblue;
+.nav-item:hover {
+    background-color:darksalmon;
+        
+    }
+    
+.nav {
+        justify-content:center;
+    background-color: darksalmon;
+
+    }
+    body{
+        background-color:#F2F2F2;
+        margin: 0px 0px 50px 0px; 
+    }
+        
+img {
+    width:75%;
+    
+}
+    button{
+       border-radius: 250px;
+        color: darksalmon;
+        font-family:'Josefin Sans', sans-serif;
+        font-size: 25px;
+        background-color: #414B3B;
+        width: 200px;
+        padding: 20px 20px 20px 20px;
+    margin: 100px 20px 20px 20px;
+        object-position: center;
+        
+        
+    }
+    button:hover {
+        background-color: cornsilk;
+    }
+    button a {color:darksalmon;
+        text-decoration:none;
+        
+        
+    }
+h1 {font-family: 'Josefin Sans', sans-serif;
+    color:#414B3B; 
+    font-size: 80px;
+}
+h2 {font-family: 'Josefin Sans', sans-serif;
+    color:#414B3B;
+    font-size:50px;}
+    h3{font-family: 'Josefin Sans', sans-serif;
+    color:#414B3B;}   
+    h4 {font-family: 'Josefin Sans', sans-serif;
+    color:#414B3B;
+    margin: 10px 0px 10px 0px;}
+h5{font-family: 'Josefin Sans', sans-serif;
+    color:#414B3B;}
+    ul{font-family: 'Red Hat Display', sans-serif;}
+    li{color:#414B3B;}
+    p {font-family: 'Red Hat Display', sans-serif;
+    color:#414B3B;}
+    h6{font-family: 'Josefin Sans', sans-serif;
+    color:#414B3B;
+        margin: 15px 0px 0px 10px;
+    }
+    h7{font-family: 'Josefin Sans', sans-serif;
+    color:#414B3B; 
+        margin: 15px 0px 15px 0px;
+    }
+ 
+#topper{
+    background-color: darksalmon;
+    
+}
+     
+#footer {
+    position:fixed;
+    bottom:0px;
+    background-color:darksalmon;
+    color:#414B3B;
+    font-family: 'Red Hat Display', sans-serif;
+    
+}
+}
+@media(min-width:576px)
+{ h1 {
+    font-size:80px;
+    }
+    
 }
