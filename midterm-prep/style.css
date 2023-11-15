@@ -1,0 +1,38 @@
+@media{ 
+img{
+    width:300px;
+    float:left;
+    margin: 0px 50px 10px 10px;
+ 
+}
+
+body{
+    font-family:sans-serif;
+    
+}
+#contact{
+  font-weight:700;
+    color:black;
+    
+}
+a:hover{
+    color:red;
+}
+
+#info{
+    width:100%;
+    margin:auto;
+}
+}
+#footer {
+    position:fixed;
+    width:100%;
+    bottom: 0px;
+    left: 0px;
+    background-color:aquamarine;
+}
+@media (min-width:576px) {
+    #info {
+        width: 700px;
+    }
+}
