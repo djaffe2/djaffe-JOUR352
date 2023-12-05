@@ -1,0 +1,64 @@
+img {
+    width:100%;
+    object-fit:contain;
+    
+
+}
+
+#topper {
+    background-color: black;
+}
+
+h1{
+    color: white;
+    font-family: 'Baskervville', serif;
+    font-size: 50px;
+}
+h2{ color: white;
+    font-family: 'Handlee', cursive;
+    font-size: 30px;
+}
+h3{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    
+}
+h4{color: white;
+font-family: 'Raleway', sans-serif;
+    font-size:13px;
+    
+}
+h5{color:black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+
+}
+p{
+    padding: 40px 150px 0px 150px;
+    color:black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+
+}
+
+.quote{ font-family: 'Baskervville', serif;
+    font-size: 25px;   
+}
+.img-sized {
+    max-width: 80%;
+    object-fit: cover;
+    
+}
+
+@media (min-width:576px) {
+    #img{width:100%;
+        
+        
+    }
+    
+}
+
+@media (min-width:992px) {
+     #img{width:100%;
+}
