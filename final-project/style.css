@@ -20,34 +20,54 @@ h2{ color: white;
 }
 h3{
     color: white;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Baskervville', serif;
     font-size: 15px;
     
 }
 h4{color: white;
-font-family: 'Raleway', sans-serif;
+font-family: 'Baskervville', serif;
     font-size:13px;
     
 }
 h5{color:black;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Baskervville', serif;
     font-size: 12px;
+    text-align: center;
 
 }
 p{
-    padding: 40px 150px 0px 150px;
+    padding: 30px 150px 0px 150px;
     color:black;
-    font-family: 'Raleway', sans-serif;
-    font-size: 15px;
+    font-family: 'Baskervville', serif;
+    font-size: 18px;
 
 }
 
 .quote{ font-family: 'Baskervville', serif;
-    font-size: 25px;   
+    font-size: 25px; 
+    padding: 5px 150px 0px 150px;
+    margin:auto;
+     border-top:5px solid #6B7D7D;
+    border-bottom: 5px solid #6B7D7D;
+    text-align:center;
 }
+
+
 .img-sized {
-    max-width: 80%;
-    object-fit: cover;
+    width: 100%;
+    padding: 30px 150px 0px 150px;
+
+    
+}
+.caption{
+    padding:0px 150px 0px 150px;
+    font-size:13px;
+    font-family:'Baskervville', serif;
+    text-align: center;
+}
+
+.flourish-embed {
+    padding: 30px 150px 0px 150px;
     
 }
 
